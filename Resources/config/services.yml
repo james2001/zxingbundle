@@ -1,0 +1,10 @@
+parameters:
+    james2001_zxing.class: James2001\Zxing
+    james2001_zxing.key: ''
+    james2001_zxing.options: ''
+    james2001_zxing.libBinPath: ''
+
+services:
+    james2001.zxing:
+        class: %james2001_zxing.class%
+        arguments: [%james2001_zxing.key%, %james2001_zxing.options%, %james2001_zxing.libBinPath%]
