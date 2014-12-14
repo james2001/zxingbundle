@@ -30,6 +30,17 @@ Launch install from your project root with:
 composer install --no-dev --prefer-dist
 ```
 
+Add bundle in AppKernel.php
+
+```php
+ $bundles = array(
+ ...
+new James2001\Bundle\ZxingBundle\James2001ZxingBundle(),
+...
+ );
+ ```
+ 
+ 
 Use
 ---
 
